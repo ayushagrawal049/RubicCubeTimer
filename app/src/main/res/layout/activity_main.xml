@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b"
+    android:id="@+id/s"
+    android:onClick="start"
+
+
+
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="TAP TO START/STOP"
+        android:textSize="30sp"
+        android:textColor="	#00BFFF"
+        android:paddingTop="60dp"
+        android:paddingBottom="50dp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+
+        android:layout_height="0dp"
+        android:textAlignment="center"
+        android:layout_weight="1"
+
+        android:id="@+id/ti"
+
+
+
+        android:paddingTop="20dp"
+        android:paddingBottom="6dp"
+        android:textSize="90sp"
+        android:textColor="#FF0000"
+        android:text="15:00"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/i"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="30sp"
+        android:textColor="	#00BFFF"
+        android:text="INSPECTION TIME"
+        android:paddingTop="60dp"
+        android:paddingBottom="50dp"
+        android:textAlignment="center"
+
+        />
+
+
+
+
+
+
+</LinearLayout>
